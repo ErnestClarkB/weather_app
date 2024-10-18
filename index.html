@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Glassmorphism Example</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="glass-container">
+        <div class="search-bar">
+            <input class = "bar" type="text" id="cityInput" placeholder="Enter city name" />
+            </div>
+        <div class="date-time">
+            <a class="sentence-1" id="dayDate"></a>
+            <a class="sentence-2" id="cityName"></a>
+        </div>
+        <div class="weather-cont">
+            <div class="ico">
+                <img class="weather-ico" id="weatherIcon" src="#">
+            </div>
+            <a class="weather-status" id="weatherStatus"></a>
+            <a class="temperature" id="temperature"></a>
+        </div>
+        <div class="subclasses">
+            <div class="class">
+                <a class="label">Wind</a>
+                <div class="class-img">
+                    <img class="class" src="assets\wind-speed.png">
+                </div>
+                
+                <a class="outputs" id="force"></a>
+                <a class="outputs" id="direction"></a>
+                
+            </div>
+            <div class="class">
+                <a class="label">Cloudiness</a>
+                <div class="class-img">
+                    <img class="class" src="assets\cloudiness.png">
+                </div>
+                <a class="outputs" id="cloudiness"></a>
+                
+            </div>
+            <div class="class">
+                <a class="label">Humidity</a>
+                <div class="class-img">
+                    <img class="class" src="assets\humidity.png">
+                </div>
+                
+                <a class="outputs" id="humidity"></a>
+                
+            </div>
+            <div class="class">
+                <a class="label">Sunset</a>
+                <div class="class-img">
+                    <img class="class" src="assets\sunset.png">
+                </div>
+                
+                <a class="outputs" id="sunset"></a>
+                
+            </div>
+            
+        </div>
+    </div>
+    <script src="script.js"></script>
+
+</body>
+</html>
