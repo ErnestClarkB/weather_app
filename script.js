@@ -1,5 +1,5 @@
 const apiKey = "27f4cd3b22c4fa25699036323bfd6ba2"; // Replace with your OpenWeatherMap API key
-const defaultCity = "Lamitan"; // Set your default city here
+const defaultCity = "Manila"; // Set your default city here
 
 // Fetch weather for the default city when the page loads
 window.onload = function() {
